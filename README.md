@@ -2,13 +2,15 @@
 
 I build real-time data infrastructure for quantitative crypto research at **[Unravel Finance](https://unravel.finance)**.
 
-We ingest terabytes of orderbook and alternative data, reconstruct it at nanosecond precision, and serve hundreds of cross-sectional predictive factors via API — so systematic traders can build market-neutral portfolios without spending six months on data plumbing. We also manage external capital via separately managed accounts.
+Two things we do: we license **cross-sectional alpha factors and multi-factor portfolios** to systematic traders — with point-in-time reconstruction, risk overlays, and full transparency. And we're now opening up the **data infrastructure layer** underneath: accurate aggregate market metrics from terabytes of reconstructed orderbook and alternative data, served via API with sub-10s latency. The data product is currently in closed beta — [request access here](https://docs.google.com/forms/d/e/1FAIpQLSe1x7ZT6UcMocHyllbjrc3yf7pADoh0py2vJNFwr9dQS91cag/viewform?usp=dialog).
+
+We also manage external capital via separately managed accounts.
 
 Before this, I spent years in ML research (adaptive time series models, graph neural networks, reinforcement learning), ran an EU-wide healthcare accelerator backed by GE Healthcare and MIT, and studied computational architecture — where I wrote genetic algorithms that evolved building forms and simulated morphogenetic systems. The through-line is an obsession with modeling complex systems and making them usable.
 
 <p>
-  <a href="https://unravel.finance"><img src="https://img.shields.io/badge/Unravel_Finance-0066FF?style=for-the-badge" alt="Unravel Finance" /></a>
-  <a href="https://www.linkedin.com/in/daniel-szemerey"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://unravel.finance"><img src="https://img.shields.io/badge/Unravel_Finance_%E2%80%BA-000?style=for-the-badge" alt="Unravel Finance" /></a>
+  <a href="https://www.linkedin.com/in/daniel-szemerey/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
 ---
@@ -20,6 +22,11 @@ Before this, I spent years in ML research (adaptive time series models, graph ne
   <a href="https://unravel.finance/portfolios/40"><img src="https://img.shields.io/badge/Portfolio_Catalog_%E2%80%BA-000?style=for-the-badge" alt="Portfolio Catalog" /></a>&nbsp;
   <a href="https://unravel.finance/risk/spectra/40"><img src="https://img.shields.io/badge/Risk_Overlays_%E2%80%BA-000?style=for-the-badge" alt="Risk Overlays" /></a>&nbsp;
   <a href="https://unravel.finance/changelog"><img src="https://img.shields.io/badge/Changelog_%E2%80%BA-000?style=for-the-badge" alt="Changelog" /></a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1x7ZT6UcMocHyllbjrc3yf7pADoh0py2vJNFwr9dQS91cag/viewform?usp=dialog"><img src="https://img.shields.io/badge/Request_Data_Access_%E2%80%BA-000?style=for-the-badge" alt="Aggregate Data Access" /></a>
+</p>
+
+<p>
+
 </p>
 
 **Featured:**
@@ -42,7 +49,7 @@ Before this, I spent years in ML research (adaptive time series models, graph ne
 
 **[Accelerating Spatial Analysis with Neural Networks](https://github.com/szemyd/neuralnet-vga-analysis)** (MSc Thesis, UCL Bartlett) — Proved that a Multilayer Perceptron can estimate Visibility Graph Analysis values without expensive graph computation. The trained network generates spatial configurations from VGA inputs *and* calculates neighbourhood size and clustering coefficients substantially faster than traditional methods, with negligible error. The system is space-generic — trained once, applicable universally. The implication: spatial analysis becomes interactive and real-time, enabling optimization procedures like genetic algorithms during the design process.
 
-**[`fold`](https://github.com/dream-faster/fold)** ⭐ 102 — Fast adaptive ML for time series. Composite models, online learning, temporal cross-validation. Built when I got tired of tools that assume stationarity.
+**[`fold`](https://github.com/dream-faster/fold)** — Fast adaptive ML for time series. Composite models, online learning, temporal cross-validation. Built when I got tired of tools that assume stationarity.
 
 **[`krisi`](https://github.com/dream-faster/krisi)** — Time series evaluation with PDF/web reporting. Metrics tracked over time, because a single RMSE tells you nothing about drift.
 
