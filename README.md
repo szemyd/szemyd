@@ -10,6 +10,7 @@ Before this, I spent years in ML research (adaptive time series models, graph ne
 
 <p>
   <a href="https://unravel.finance"><img src="https://img.shields.io/badge/Unravel_Finance_%E2%80%BA-000?style=for-the-badge" alt="Unravel Finance" /></a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1x7ZT6UcMocHyllbjrc3yf7pADoh0py2vJNFwr9dQS91cag/viewform?usp=dialog"><img src="https://img.shields.io/badge/Request_Data_Access_%E2%80%BA-000?style=for-the-badge" alt="Aggregate Data Access" /></a>
   <a href="https://www.linkedin.com/in/daniel-szemerey/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
@@ -21,8 +22,7 @@ Before this, I spent years in ML research (adaptive time series models, graph ne
   <a href="https://unravel.finance/factors/40"><img src="https://img.shields.io/badge/Factor_Catalog_%E2%80%BA-000?style=for-the-badge" alt="Factor Catalog" /></a>&nbsp;
   <a href="https://unravel.finance/portfolios/40"><img src="https://img.shields.io/badge/Portfolio_Catalog_%E2%80%BA-000?style=for-the-badge" alt="Portfolio Catalog" /></a>&nbsp;
   <a href="https://unravel.finance/risk/spectra/40"><img src="https://img.shields.io/badge/Risk_Overlays_%E2%80%BA-000?style=for-the-badge" alt="Risk Overlays" /></a>&nbsp;
-  <a href="https://unravel.finance/changelog"><img src="https://img.shields.io/badge/Changelog_%E2%80%BA-000?style=for-the-badge" alt="Changelog" /></a>
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1x7ZT6UcMocHyllbjrc3yf7pADoh0py2vJNFwr9dQS91cag/viewform?usp=dialog"><img src="https://img.shields.io/badge/Request_Data_Access_%E2%80%BA-000?style=for-the-badge" alt="Aggregate Data Access" /></a>
+  <a href="https://unravel.finance/about"><img src="https://img.shields.io/badge/Team_%E2%80%BA-000?style=for-the-badge" alt="Team" /></a>
 </p>
 
 <p>
@@ -31,9 +31,11 @@ Before this, I spent years in ML research (adaptive time series models, graph ne
 
 **Featured:**
 
-> **[Spectra](https://unravel.finance/portfolio/spectra.40)** — Our flagship licensable multi-factor portfolio. Combines cross-sectional signals with proactive risk overlays into a single, deployable strategy.
+> **[Spectra](https://unravel.finance/portfolio/spectra.40)** — Our flagship licensable multi-factor portfolio.
 >
-> **[Retail Flow](https://unravel.finance/portfolio/retail_flow.40)** — Cross-sectional factor measuring retail investor activity. Analyzes individual executed trades to identify assets driven by retail participation, then takes systematically contrarian positions against herding and overreaction. Uses five distinct trade imbalance techniques in an ensemble approach — no optimization or parameter fitting.
+> **[Retail Flow](https://unravel.finance/portfolio/retail_flow.40)** — Cross-sectional factor designed to measure and respond to retail investor activity. By analyzing individual executed trades sourced from exchanges, the strategy identifies assets heavily influenced by retail participation. It then takes systematically contrarian positions, seeking to exploit predictable patterns of overreaction and herding behavior.
+
+
 
 **Open source tools:**
 
@@ -65,7 +67,7 @@ Before this, I spent years in ML research (adaptive time series models, graph ne
 
 **Unravel Finance** (Co-Founder & CTO) — Factor portfolios, cross-sectional signals, and risk overlays for institutional crypto. Python & Rust ingestion, TimescaleDB, Cloudflare Workers, React frontend. Serving data with sub-10s latency to systematic funds.
 
-**Dream Faster / Myalo** — Quantitative research infrastructure for adaptive time series forecasting. Open-sourced `fold` and `krisi` from this work.
+**Myalo** — Quantitative research infrastructure for adaptive time series forecasting. Open-sourced `fold` and `krisi` from this work.
 
 **Health Venture Lab** (Co-Founder & CEO) — EU-wide healthcare accelerator powered by GE Healthcare, in partnership with EIT Health. Faculty at MIT Linq Catalyst Europe.
 
