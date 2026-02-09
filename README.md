@@ -9,7 +9,7 @@ We also manage external capital via separately managed accounts.
 Before this, I spent years in ML research (adaptive time series models, graph neural networks, reinforcement learning), ran an EU-wide healthcare accelerator backed by GE Healthcare and MIT, and studied computational architecture — where I wrote genetic algorithms that evolved building forms and simulated morphogenetic systems. The through-line is an obsession with modeling complex systems and making them usable.
 
 <p>
-  <a href="https://unravel.finance"><img src="https://img.shields.io/badge/Unravel_Finance-%E2%80%BA-000?style=for-the-badge" alt="Unravel Finance" /></a>
+  <a href="https://unravel.finance"><img src="https://img.shields.io/badge/Unravel_Finance_%E2%80%BA-000?style=for-the-badge" alt="Unravel Finance" /></a>
   <a href="https://www.linkedin.com/in/daniel-szemerey/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
@@ -49,7 +49,7 @@ Before this, I spent years in ML research (adaptive time series models, graph ne
 
 **[Accelerating Spatial Analysis with Neural Networks](https://github.com/szemyd/neuralnet-vga-analysis)** (MSc Thesis, UCL Bartlett) — Proved that a Multilayer Perceptron can estimate Visibility Graph Analysis values without expensive graph computation. The trained network generates spatial configurations from VGA inputs *and* calculates neighbourhood size and clustering coefficients substantially faster than traditional methods, with negligible error. The system is space-generic — trained once, applicable universally. The implication: spatial analysis becomes interactive and real-time, enabling optimization procedures like genetic algorithms during the design process.
 
-**[`fold`](https://github.com/dream-faster/fold)** ⭐ 102 — Fast adaptive ML for time series. Composite models, online learning, temporal cross-validation. Built when I got tired of tools that assume stationarity.
+**[`fold`](https://github.com/dream-faster/fold)** — Fast adaptive ML for time series. Composite models, online learning, temporal cross-validation. Built when I got tired of tools that assume stationarity.
 
 **[`krisi`](https://github.com/dream-faster/krisi)** — Time series evaluation with PDF/web reporting. Metrics tracked over time, because a single RMSE tells you nothing about drift.
 
