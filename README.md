@@ -8,7 +8,7 @@ Before this, I spent years in ML research (adaptive time series models, graph ne
 
 <p>
   <a href="https://unravel.finance"><img src="https://img.shields.io/badge/Unravel_Finance-0066FF?style=for-the-badge" alt="Unravel Finance" /></a>
-  <a href="https://www.linkedin.com/in/danielszemerey"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/daniel-szemerey"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
 ---
