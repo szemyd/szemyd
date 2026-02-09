@@ -22,7 +22,7 @@ Before this, I spent years in ML research (adaptive time series models, graph ne
   <a href="https://unravel.finance/factors/40"><img src="https://img.shields.io/badge/Factor_Catalog_%E2%80%BA-000?style=for-the-badge" alt="Factor Catalog" /></a>&nbsp;
   <a href="https://unravel.finance/portfolios/40"><img src="https://img.shields.io/badge/Portfolio_Catalog_%E2%80%BA-000?style=for-the-badge" alt="Portfolio Catalog" /></a>&nbsp;
   <a href="https://unravel.finance/risk/spectra/40"><img src="https://img.shields.io/badge/Risk_Overlays_%E2%80%BA-000?style=for-the-badge" alt="Risk Overlays" /></a>&nbsp;
-  <a href="https://unravel.finance/changelog"><img src="https://img.shields.io/badge/Changelog_%E2%80%BA-000?style=for-the-badge" alt="Changelog" /></a>
+  <a href="https://unravel.finance/about"><img src="https://img.shields.io/badge/Team_%E2%80%BA-000?style=for-the-badge" alt="Team" /></a>
 </p>
 
 <p>
