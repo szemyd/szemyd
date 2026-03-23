@@ -83,7 +83,7 @@ Professional-grade crypto market data aggregation. We handle the data plumbing s
 
 ### Background
 
-**Unravel Finance** (Co-Founder & CTO) — Two products: Aperiodic (market data aggregation at aperiodic.io) and Unravel Alpha (factor portfolios at unravel.finance). Python & Rust ingestion, TimescaleDB, Cloudflare Workers, React frontend. Serving data with sub-10s latency to systematic funds.
+**Unravel Finance** (Co-Founder & CTO) — Real-time data infrastructure for quantitative crypto research. Market data aggregation, cross-sectional alpha factors, multi-factor portfolios, and managed accounts. Python & Rust ingestion, TimescaleDB, Cloudflare Workers, React frontend. Serving data with sub-10s latency to systematic funds.
 
 **Myalo** — Quantitative research infrastructure for adaptive time series forecasting. Open-sourced `fold` and `krisi` from this work.
 
