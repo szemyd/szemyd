@@ -1,22 +1,46 @@
 # Daniel Szemerey
 
-I build real-time data infrastructure for quantitative crypto research at **[Unravel Finance](https://unravel.finance)**.
+I build data infrastructure for quantitative crypto research. Currently shipping two products:
 
-Two things we do: we license **cross-sectional alpha factors and multi-factor portfolios** to systematic traders — with point-in-time reconstruction, risk overlays, and full transparency. And we're now opening up the **data infrastructure layer** underneath: accurate aggregate market metrics from terabytes of reconstructed orderbook and alternative data, served via API with sub-10s latency. The data product is currently in closed beta — [request access here](https://docs.google.com/forms/d/e/1FAIpQLSe1x7ZT6UcMocHyllbjrc3yf7pADoh0py2vJNFwr9dQS91cag/viewform?usp=dialog).
+**[Aperiodic](https://aperiodic.io)** — Professional market data aggregation for crypto. Microstructure, liquidity & order flow metrics — delivered as research-ready aggregates so you can run accurate backtests **100-1000x faster** than raw L2 approaches, without petabytes of storage or months of infrastructure work. TrueOHLCV, execution-aware pricing, tick/volume/dollar bars, slippage metrics, order book aggregates — full universe, no survivorship bias.
 
-We also manage external capital via separately managed accounts.
-
-Before this, I spent years in ML research (adaptive time series models, graph neural networks, reinforcement learning), ran an EU-wide healthcare accelerator backed by GE Healthcare and MIT, and studied computational architecture — where I wrote genetic algorithms that evolved building forms and simulated morphogenetic systems. The through-line is an obsession with modeling complex systems and making them usable.
+**[Unravel Alpha](https://unravel.finance)** — Cross-sectional alpha factors and multi-factor portfolios for systematic crypto traders. Point-in-time reconstruction, risk overlays, full transparency. We also manage external capital via separately managed accounts.
 
 <p>
-  <a href="https://unravel.finance"><img src="https://img.shields.io/badge/Unravel_Finance_%E2%80%BA-000?style=for-the-badge" alt="Unravel Finance" /></a>
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1x7ZT6UcMocHyllbjrc3yf7pADoh0py2vJNFwr9dQS91cag/viewform?usp=dialog"><img src="https://img.shields.io/badge/Request_Data_Access_%E2%80%BA-000?style=for-the-badge" alt="Aggregate Data Access" /></a>
+  <a href="https://aperiodic.io"><img src="https://img.shields.io/badge/Aperiodic_%E2%80%BA-000?style=for-the-badge" alt="Aperiodic" /></a>
+  <a href="https://unravel.finance"><img src="https://img.shields.io/badge/Unravel_Alpha_%E2%80%BA-000?style=for-the-badge" alt="Unravel Alpha" /></a>
   <a href="https://www.linkedin.com/in/daniel-szemerey/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
 ---
 
-### Unravel — Product & Open Source
+### Aperiodic — Market Data for Realistic Backtesting
+
+Professional-grade crypto market data aggregation. We handle the data plumbing so you don't have to.
+
+**Core metrics:**
+
+| Category | Metrics |
+|----------|---------|
+| **Foundation** | TrueOHLCV, OHLCV, Bid/Ask Spreads |
+| **Execution & Slippage** | Execution-aware price series ($10k–$1M+), slippage metrics, liquidation data |
+| **Research-Grade** | Tick bars (10–1000 ticks), volume bars, dollar bars, order book metrics, HF volatility |
+
+**What makes it different:**
+
+- **Not raw data** — validated, exchange-normalized aggregates ready for research
+- **Exchange vs. local attribution** — TrueOHLCV based on actual tradeable prices
+- **Execution-aware pricing** — average fill prices at realistic position sizes
+- **Full universe coverage** — no survivorship bias across all exchanges
+- **Enterprise-grade QA** — standardized validation, point-in-time accuracy, documented data lineage
+
+<p>
+  <a href="https://aperiodic.io"><img src="https://img.shields.io/badge/Explore_the_Catalog_%E2%80%BA-000?style=for-the-badge" alt="Aperiodic Catalog" /></a>
+</p>
+
+---
+
+### Unravel Alpha — Factors & Portfolios
 
 <p>
   <a href="https://unravel.finance/factors/40"><img src="https://img.shields.io/badge/Factor_Catalog_%E2%80%BA-000?style=for-the-badge" alt="Factor Catalog" /></a>&nbsp;
@@ -25,17 +49,11 @@ Before this, I spent years in ML research (adaptive time series models, graph ne
   <a href="https://unravel.finance/about"><img src="https://img.shields.io/badge/Team_%E2%80%BA-000?style=for-the-badge" alt="Team" /></a>
 </p>
 
-<p>
-
-</p>
-
 **Featured:**
 
 > **[Spectra](https://unravel.finance/portfolio/spectra.40)** — Our flagship licensable multi-factor portfolio.
 >
-> **[Retail Flow](https://unravel.finance/portfolio/retail_flow.40)** — Cross-sectional factor designed to measure and respond to retail investor activity. By analyzing individual executed trades sourced from exchanges, the strategy identifies assets heavily influenced by retail participation. It then takes systematically contrarian positions, seeking to exploit predictable patterns of overreaction and herding behavior.
-
-
+> **[Retail Flow](https://unravel.finance/portfolio/retail_flow.40)** — Cross-sectional factor that takes systematically contrarian positions against predictable retail herding behavior.
 
 **Open source tools:**
 
@@ -65,7 +83,7 @@ Before this, I spent years in ML research (adaptive time series models, graph ne
 
 ### Background
 
-**Unravel Finance** (Co-Founder & CTO) — Factor portfolios, cross-sectional signals, and risk overlays for institutional crypto. Python & Rust ingestion, TimescaleDB, Cloudflare Workers, React frontend. Serving data with sub-10s latency to systematic funds.
+**Unravel Finance** (Co-Founder & CTO) — Two products: Aperiodic (market data aggregation at aperiodic.io) and Unravel Alpha (factor portfolios at unravel.finance). Python & Rust ingestion, TimescaleDB, Cloudflare Workers, React frontend. Serving data with sub-10s latency to systematic funds.
 
 **Myalo** — Quantitative research infrastructure for adaptive time series forecasting. Open-sourced `fold` and `krisi` from this work.
 
