@@ -35,7 +35,7 @@ Professional-grade crypto market data aggregation. We handle the data plumbing s
 - **Enterprise-grade QA** — standardized validation, point-in-time accuracy, documented data lineage
 
 <p>
-  <a href="https://aperiodic.io"><img src="https://img.shields.io/badge/Explore_the_Catalog_%E2%80%BA-000?style=for-the-badge" alt="Aperiodic Catalog" /></a>
+  <a href="https://aperiodic.io/catalog"><img src="https://img.shields.io/badge/Explore_the_Catalog_%E2%80%BA-000?style=for-the-badge" alt="Aperiodic Catalog" /></a>
 </p>
 
 ---
